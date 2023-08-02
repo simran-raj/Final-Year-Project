@@ -1,0 +1,8 @@
+Project is basically based on Software Simulation through Proteus 8 professional tool. 
+Components used are LDR sensor, Buck Converter, Optocoupler, Arduino Simulino UNO, LCD. LDR sensor will sense the light intensity and then its calculation will be
+done on Arduino. According to the valuable range we can switch the charging port. Like, when intensity is high then it will charge through solar panel otherwise
+Dc power supply. 
+Microcontroller is connected with LCD, Light sensor, Solar Panel. First, we are calculating the voltage output from solar panel and then we are checking for 
+maximum output by the intensity of the sun through the LDR. Practically it is observed that during morning it is below 400 and in good sunshine it is in the 
+range of the 800 which is a good value and in the no sun time it is below 100. If the intensity observed is good the Electrical vehicle is charged through 
+panel else it will check the sensor status and will charge through direct DC supply.
